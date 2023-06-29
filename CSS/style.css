@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&family=Roboto+Condensed:wght@300&display=swap');
+*{
+
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 67px;
+    background-color: #2370f4;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+nav{
+    display: flex;
+    
+}
+.logo
+{
+    display: flex;
+    align-items: center;
+}
+img{
+    width:200px;
+    padding: 0 25px;
+}
+nav ul
+{
+    height: 67px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li
+{
+    list-style: none;
+    padding: 14px;
+}
+nav ul li:hover
+{
+    font-weight: bold;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+.search
+{
+    display: flex;
+    align-items: center;
+}
+.search input
+{
+    height: 25px;
+    width: 30vw;
+    margin: 0px 13px 0px 52px;
+    border-radius: 4px;
+    
+}
+.btn
+{
+    width: 56px;
+    height: 24px;
+}
+
+.container
+{
+    min-height: calc(100vh - 67px - 12vh);
+}
+.slider{
+    margin: 7px 12px 12px -2px;
+    overflow: hidden;
+}
+.slider img{
+    margin: auto;
+    width: 1300px;
+}
+.card
+{
+
+    max-width: 91vw;
+    margin: auto;
+}
+.cards
+{
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+}
+/* .card-item
+{
+    display: inline-block;
+    width: 238px;
+    height: 316px;
+} */
+.card-item2
+{
+    padding: 30px;
+}
+.lines2{
+    padding-top: 96px;
+    width: 109px;
+    padding-right: 19px;
+    padding-left: 65px;
+}
+.card-item3
+{
+    padding: 30px;
+}
+.lines3{
+    padding-top: 68px;
+    width: 109px;
+    padding-right: 19px;
+    padding-left: 65px;
+}
+.card-item4
+{
+    padding-left: 61px;
+}
+.lines4
+{
+    padding-top: 104px;
+}
+.card-item5
+{
+    padding-top: 39px;
+}
+.lines5
+{
+    padding-top: 26px;
+    padding-right: 70px;
+}
+.card-item6
+{
+    padding-top: 28px;
+    padding-right: 42px;
+    padding-left: 34px;
+}
+.lines6
+{
+    padding-top: 66px;
+}
+.card-item7{
+    padding-top: 24px;
+    padding-right: 70px;
+    padding-left: 20px
+}
+.lines7
+{
+    padding-top: 65px;
+}
+.card-item8
+{
+    padding-top: 25px;
+}
+.lines8
+{
+    padding-top: 68px;
+}
+.card-item9
+{
+    padding-top: 33px;
+}
+.lines9
+{
+    padding-top: 55px;
+    padding-right: 8px;
+}
+.card-item10
+{
+    padding-top: 34px;
+    padding-right: 16px;
+    padding-left: 13px;
+}
+.lines10
+{
+    padding-top: 18px;
+}
+.card-item11
+{
+    padding-right: 23px;
+    padding-left: 36px;
+    padding-top: 12px;
+}
+.card-item12
+{
+    padding-top: 50px;
+    padding-left: 16px;
+}
+.lines12
+{
+    padding-top: 76px;
+}
+footer
+{
+    height: 6vh;
+    background-color: #2370f4;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
